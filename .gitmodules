@@ -88,3 +88,69 @@
 [submodule "widgets/widget-wcs"]
 	path = widgets/widget-wcs
 	url = https://github.com/chilipeppr/widget-wcs.git
+[submodule "mywidgets/widget-spjs"]
+	path = mywidgets/widget-spjs
+	url = https://github.com/jimmieclark3/widget-spjs.git
+[submodule "mywidgets/eagle-brd-import"]
+	path = mywidgets/eagle-brd-import
+	url = https://github.com/jimmieclark3/eagle-brd-import.git
+[submodule "mywidgets/elem-dragdrop"]
+	path = mywidgets/elem-dragdrop
+	url = https://github.com/jimmieclark3/elem-dragdrop.git
+[submodule "mywidgets/element-flash"]
+	path = mywidgets/element-flash
+	url = https://github.com/jimmieclark3/element-flash.git
+[submodule "mywidgets/element-gcodedata"]
+	path = mywidgets/element-gcodedata
+	url = https://github.com/jimmieclark3/element-gcodedata.git
+[submodule "mywidgets/element-rootpanel"]
+	path = mywidgets/element-rootpanel
+	url = https://github.com/jimmieclark3/element-rootpanel.git
+[submodule "mywidgets/grbl1-test-widget"]
+	path = mywidgets/grbl1-test-widget
+	url = https://github.com/jimmieclark3/grbl1-test-widget.git
+[submodule "mywidgets/widget-3dviewer"]
+	path = mywidgets/widget-3dviewer
+	url = https://github.com/jimmieclark3/widget-3dviewer.git
+[submodule "mywidgets/widget-axes"]
+	path = mywidgets/widget-axes
+	url = https://github.com/jimmieclark3/widget-axes.git
+[submodule "mywidgets/widget-console"]
+	path = mywidgets/widget-console
+	url = https://github.com/jimmieclark3/widget-console.git
+[submodule "mywidgets/widget-eagle"]
+	path = mywidgets/widget-eagle
+	url = https://github.com/jimmieclark3/widget-eagle.git
+[submodule "mywidgets/widget-eagle-soldermask"]
+	path = mywidgets/widget-eagle-soldermask
+	url = https://github.com/jimmieclark3/widget-eagle-soldermask.git
+[submodule "mywidgets/widget-editbootjavascript"]
+	path = mywidgets/widget-editbootjavascript
+	url = https://github.com/jimmieclark3/widget-editbootjavascript.git
+[submodule "mywidgets/widget-macro"]
+	path = mywidgets/widget-macro
+	url = https://github.com/jimmieclark3/widget-macro.git
+[submodule "mywidgets/widget-gcodelist-jpaFork"]
+	path = mywidgets/widget-gcodelist-jpaFork
+	url = https://github.com/jimmieclark3/widget-gcodelist-jpaFork.git
+[submodule "mywidgets/widget-grbl-autolevel"]
+	path = mywidgets/widget-grbl-autolevel
+	url = https://github.com/jimmieclark3/widget-grbl-autolevel.git
+[submodule "mywidgets/widget-jscut"]
+	path = mywidgets/widget-jscut
+	url = https://github.com/jimmieclark3/widget-jscut.git
+[submodule "mywidgets/widget-programmer"]
+	path = mywidgets/widget-programmer
+	url = https://github.com/jimmieclark3/widget-programmer.git
+[submodule "mywidgets/widget-pubsubviewer"]
+	path = mywidgets/widget-pubsubviewer
+	url = https://github.com/jimmieclark3/widget-pubsubviewer.git
+[submodule "mywidgets/widget-terminal"]
+	path = mywidgets/widget-terminal
+	url = https://github.com/jimmieclark3/widget-terminal.git
+[submodule "mywidgets/widget-touchplate"]
+	path = mywidgets/widget-touchplate
+	url = https://github.com/jimmieclark3/widget-touchplate.git
+[submodule "mywidgets/widget-zipwhip"]
+	path = mywidgets/widget-zipwhip
+	url = https://github.com/jimmieclark3/widget-zipwhip.git
