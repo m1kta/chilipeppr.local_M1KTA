@@ -11,7 +11,7 @@ cprequire_test(["inline:com-chilipeppr-workspace-grbl"], function(ws) {
      */
     var loadFlashMsg = function() {
         chilipeppr.load("#com-chilipeppr-widget-flash-instance",
-            "http://raw.githubusercontent.com/jimmieclark3/element-flash/master/auto-generated-widget.html",
+            "https://raw.githubusercontent.com/jimmieclark3/element-flash/master/auto-generated-widget.html",
             // "http://fiddle.jshell.net/chilipeppr/90698kax/show/light/",
             function() {
                 console.log("mycallback got called after loading flash msg module");
@@ -143,7 +143,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
 
             chilipeppr.load(
                 "#com-chilipeppr-widget-template-instance",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-template/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-template/master/auto-generated-widget.html",
                 function() {
                     // Callback after widget loaded into #myDivWidgetTemplate
                     // Now use require.js to get reference to instantiated widget
@@ -229,7 +229,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             // Workspace Menu with Workspace Billboard
             var that = this;
             chilipeppr.load(
-                "http://raw.githubusercontent.com/jimmieclark3/widget-pubsubviewer/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-pubsubviewer/master/auto-generated-widget.html",
                 // "http://fiddle.jshell.net/chilipeppr/zMbL9/show/light/",
                 function() {
                     require(['inline:com-chilipeppr-elem-pubsubviewer'], function(pubsubviewer) {
@@ -260,7 +260,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading zipwhip');
             chilipeppr.load(
                 "#com-chilipeppr-ws-zipwhip",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-zipwhip/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-zipwhip/master/auto-generated-widget.html",
                 // "http://fiddle.jshell.net/chilipeppr/56X9G/show/light/",
                 function() {
                     require(["inline:com-chilipeppr-elem-zipwhip"], function(zipwhip) {
@@ -287,7 +287,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading autolevel');
             chilipeppr.load(
                 "#com-chilipeppr-ws-autolevel",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-grbl-autolevel/master/auto-generated-widget.html",
+                "mywidgets/widget-grbl-autolevel/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-widget-autolevel"],
 
@@ -318,7 +318,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
 
             chilipeppr.load(
                 "#myDivWidgetAutolevel",
-                "http://raw.githubusercontent.com/raykholo/grbl-widget-autolevel/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/raykholo/grbl-widget-autolevel/master/auto-generated-widget.html",
                 function() {
                     // Callback after widget loaded into #myDivWidgetAutolevel
                     // Now use require.js to get reference to instantiated widget
@@ -339,7 +339,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading macro');
             chilipeppr.load(
                 "#com-chilipeppr-ws-macro",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-macro/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-macro/master/auto-generated-widget.html",
                 function() {
                     //"http://fiddle.jshell.net/chilipeppr/ZJ5vV/show/light/", function () {
                     cprequire(["inline:com-chilipeppr-widget-macro"], function(macro) {
@@ -432,7 +432,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading jscut');
             chilipeppr.load(
                 "#com-chilipeppr-ws-jscut",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-jscut/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-jscut/master/auto-generated-widget.html",
                 // "http://fiddle.jshell.net/chilipeppr/7ZzSV/show/light/",
                 function() {
                     require(["inline:org-jscut-gcode-widget"], function(jscut) {
@@ -500,7 +500,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
                         var that = this;
                         chilipeppr.load(
                             "#com-chilipeppr-ws-eagle",
-                            "http://raw.githubusercontent.com/jimmieclark3/widget-eagle/master/auto-generated-widget.html",
+                            "mywidgets/widget-eagle/auto-generated-widget.html",
                             function() {
                                 require(["inline:com-chilipeppr-widget-eagle"], function(eagle) {
                                     that.eagleInstance = eagle;
@@ -813,7 +813,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
                         var that = this;
                         chilipeppr.load(
                             "#com-chilipeppr-ws-touchplate",
-                            "http://raw.githubusercontent.com/johnlauer/widget-grbl-touchplate/master/auto-generated-widget.html",
+                            "https://raw.githubusercontent.com/johnlauer/widget-grbl-touchplate/master/auto-generated-widget.html",
                             function() {
                                 require(["inline:com-chilipeppr-widget-touchplate"], function(touchPlate) {
                                     that.touchPlateInstance = touchPlate;
@@ -844,7 +844,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading drag drop widget');
 
             chilipeppr.load("#com-chilipeppr-ws-gcode-dragdrop",
-                "http://raw.githubusercontent.com/jimmieclark3/elem-dragdrop/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/elem-dragdrop/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-elem-dragdrop"], function(dd) {
                         console.log("inside require of dragdrop");
@@ -877,7 +877,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading billboard');
             chilipeppr.load(
                 "#com-chilipeppr-ws-gcode-menu-billboard",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-pubsubviewer/master/auto-generated-widget.html");
+                "https://raw.githubusercontent.com/jimmieclark3/widget-pubsubviewer/master/auto-generated-widget.html");
 
             //Unsure what the purpose of this is; loading the wrong widgets. 
             // MODIFY
@@ -908,7 +908,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading 3d viewer');
             chilipeppr.load("#com-chilipeppr-3dviewer",
                 //"http://fiddle.jshell.net/chilipeppr/y3HRF/show/light/",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-3dviewer/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-3dviewer/master/auto-generated-widget.html",
 
                 function() {
                     console.log("got callback done loading 3d");
@@ -1029,7 +1029,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             // http://jsfiddle.net/chilipeppr/a4g5ds5n/
             console.log('WORKSPACE: loading gcode list');
             chilipeppr.load("#com-chilipeppr-gcode-list",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-gcodelist-jpaFork/master/auto-generated-widget.html",
+                "mywidgets/widget-gcodelist-jpaFork/auto-generated-widget.html",
                 //"http://fiddle.jshell.net/chilipeppr/a4g5ds5n/show/light/",
                 //"http://jsfiddle.net/jarret/0a53jy0x/show/light",
 
@@ -1050,7 +1050,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             chilipeppr.load(
                 "com-chilipeppr-xyz-instance",
                 //          "http://fiddle.jshell.net/chilipeppr/gh45j/97/show/light/",
-                "http://raw.githubusercontent.com/jimmieclark3-grbl/widget-grbl-xyz/master/auto-generated-widget.html",
+                "mywidgets/widget-grbl-xyz/auto-generated-widget.html",
 
 
                 function() {
@@ -1295,7 +1295,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading macros at line 1379');
             chilipeppr.load(
                 "#com-chilipeppr-ws-macro",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-macro/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-macro/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-widget-macro"], function(macro) {
                         macro.init();
@@ -1325,7 +1325,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             // http://jsfiddle.net/chilipeppr/rczajbx0/
             console.log('WORKSPACE: loading serial port log');
             chilipeppr.load("#com-chilipeppr-serialport-log",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-console/master/auto-generated-widget.html",
+                "https://raw.githubusercontent.com/jimmieclark3/widget-console/master/auto-generated-widget.html",
 
 
                 // "http://fiddle.jshell.net/chilipeppr/rczajbx0/show/light/",
@@ -1400,12 +1400,8 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
                 queryDictionary[key] = value;
             }
             var grblWidgetUrl = '';
-            if (queryDictionary['jDebug'] != 'undefined' && queryDictionary['jDebug'] == 1) {
-                grblWidgetUrl = "http://raw.githubusercontent.com/jimmieclark3/grbl1-test-widget/master/auto-generated-widget.html"
-            }
-            else {
-                grblWidgetUrl = "https://raw.githubusercontent.com/jimmieclark3/grbl1-test-widget/62452538a02a3b9ac34c0ed842781f98760fef97/auto-generated-widget.html";
-            }
+            grblWidgetUrl = "mywidgets/grbl1-test-widget/auto-generated-widget.html"
+
             chilipeppr.load(
                 "#com-chilipeppr-widget-grbl-instance",
                 grblWidgetUrl,
@@ -1442,8 +1438,8 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             console.log('WORKSPACE: loading serialport selector');
             chilipeppr.load("com-chilipeppr-serialport-spselector",
                 //"http://fiddle.jshell.net/chilipeppr/vetj5fvx/show/light/",
-                "http://raw.githubusercontent.com/jimmieclark3/widget-spjs/master/auto-generated-widget.html",
-
+                //"widgets/widget-spjs/auto-generated-widget.html",
+				"https://raw.githubusercontent.com/jimmieclark3/widget-spjs/master/auto-generated-widget.html",
 
                 function() {
                     cprequire(

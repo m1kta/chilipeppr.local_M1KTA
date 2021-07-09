@@ -154,3 +154,6 @@
 [submodule "mywidgets/widget-zipwhip"]
 	path = mywidgets/widget-zipwhip
 	url = https://github.com/jimmieclark3/widget-zipwhip.git
+[submodule "mywidgets/widget-grbl-xyz"]
+	path = mywidgets/widget-grbl-xyz
+	url = https://github.com/jimmieclark3/widget-grbl-xyz.git
